@@ -66,7 +66,7 @@ create table tb_batchs(
 	batch_yeas int not null
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 create table tb_semester(
-	sem_id int primary key not null,
+	sem_id int primary key auto_increment not null,
 	sem_begintime date not null,
 	sem_endtime date not null,
 	sem_status int null,
